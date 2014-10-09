@@ -4,7 +4,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'Crypt::Blowfish::XS',
     VERSION_FROM      => 'XS.pm',
-    PREREQ_PM         => {},
+    PREREQ_PM         => {"Crypt::Random" => 0},
     OBJECT => 'XS.o crypt_blowfish.o'
 );
 
