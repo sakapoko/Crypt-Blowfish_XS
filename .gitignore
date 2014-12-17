@@ -11,3 +11,5 @@ Makefile.old
 *.gcno
 *.gcov
 XS.c
+crypt_blowfish.c
+crypt_blowfish.h
